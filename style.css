@@ -1,0 +1,83 @@
+html {
+    background-color: ivory;
+}
+body {
+    margin: 0;
+    font-family: 'Catamaran', 'Arial', sans-serif;
+    font-size: 17px;
+}
+p {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+main {
+    overflow:hidden;
+    padding: 0 5px 5px 5px;
+    width: 970px;
+    margin: 0 auto 5px auto;
+}
+nav {
+    position: fixed;
+    width: 970px;
+    height: 40px;
+    background-color: darkblue;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    /*position: relative;*/
+    cursor: pointer;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 25px 10px 25px;
+    /*margin: 0;*/
+    /*height: 20px;*/
+    color: white;
+}
+nav ul li a:link,
+nav ul li a:visited {
+    color: #FFF;
+}
+nav ul li a:hover {
+    background-color: rgb(25,25,27);
+}
+nav ul li a:active {
+    color: darkgray;
+}
+article {
+    background-color: rgba(255,255,255,0.0);
+    padding: 10px;
+    margin: 5px;
+}
+#content {
+    padding: 55px 0 0 0;
+}
+.black {
+    margin: 12px 0 12px 0;
+}
+section {
+    float: left;
+    width: 680px;
+    background-color:  rgba(255,255,255,0.01);
+    margin: 5px 5px 10px 5px;
+}
+footer {
+    clear: both;
+    width: 970px;
+    height: 20px;
+    background-color: darkblue;
+}
+footer>p {
+    text-align: center;
+}
